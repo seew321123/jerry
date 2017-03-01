@@ -1,0 +1,398 @@
+*{
+	margin:0;
+	padding:0;
+}
+
+header{
+	width:100%;
+	height:180px;
+}
+
+#topPicture{
+	position:relative;
+	height:140px;
+	width:100%;
+}
+
+#main_nav{
+	width:100%;
+	height:40px;
+	background:linear-gradient(#cc0000, #990000);
+}
+
+#main_nav ul{
+	width:700px;
+	margin:0 auto;
+}
+
+#main_nav ul li,#main_nav ul li a{
+	list-style:none;
+	display:inline-block;
+	width:110px;
+	text-align:center;
+	vertical-align:center;
+	line-height:40px;
+	color:white;
+	font-family:"microsoft yahei";
+	text-decoration:none;
+}
+
+#main_nav ul li:hover{
+	background:#cc3333;
+}
+
+#lunbo{
+	width:100%;
+	height:404px;
+	overflow:hidden;
+	position:relative;
+}
+
+#lunbo > input{
+	position:absolute;
+	top:380px;
+	z-index:100;
+	width:22px;
+	height:7px;
+	opacity:0;
+	cursor:pointer;
+}
+
+#threePic{
+	width:300%;
+	height:100%;
+	transition:all 0.2s ease-In-Out;
+}
+
+#threePic img{
+    float:left;
+    width:33.333%;	
+}
+
+#st-control-3{	
+    left:687px;	
+}
+
+#st-control-2{
+    left:654px;
+}
+
+#st-control-1{
+    left:621px;
+}
+
+#st-control-1:checked ~ #threePic{
+    transform:translateX(0);
+}
+
+#st-control-2:checked ~ #threePic{
+    transform:translateX(-33.333%);
+}
+
+#st-control-3:checked ~ #threePic{
+    transform:translateX(-66.666%);
+}
+
+#indexProduct{
+	width:1080px;
+	height:500px;
+	margin:0 auto;
+	position:relative;
+	border:1px solid #cccccc;
+}
+
+#indexProduct > header{
+	width:100%;
+	height:30px;
+	background:linear-gradient(white, #cccccc);
+}
+
+#indexProduct > header > h4{
+	height:30px;
+	width:80px;
+	background:red;
+	line-height:30px;
+	vertical-align:center;
+	text-align:center;
+	color:white;
+	font-family:"microsoft yahei";
+}
+
+#indexProduct_nav > ul {
+	height:450px;
+	width:190px;
+	border-right:1px solid #cccccc;
+}
+
+#indexProduct_nav > ul > li{
+	list-style:none;
+	height:40px;
+	line-height:40px;
+	border-bottom:1px solid #cccccc;
+	text-align:center;
+	vertical-align:center;
+	font-size:14px;
+	color:#333333;
+	cursor:pointer;
+}
+
+#indexProduct_nav > ul > li:hover{
+	background:red;
+	color:white;
+}
+
+#productContent{
+	position:absolute;
+	top:32px;
+	left:192px;
+	width:890px;
+	height:468px;
+
+}
+
+#productContent > section{
+	width:100%;
+	height:100%;
+	display:none;
+}
+
+#productContent > section.active{
+	display:block;
+}
+
+#qtzdmhxt{
+	display:block;
+}
+
+
+
+#mhqxl{
+	background:yellow;
+}
+#yjdxl{
+	background:gray;
+}
+#xfsxmhqxxl{
+	background:black;
+}
+#gcgj{
+	background:blue;
+}
+#gcfmxl{
+	background:purple;
+}
+#ygwgbjxt{
+	background:pink;
+}
+#xffzxfzb{
+	background:#cccccc;
+}
+#tsqc{
+	background:white;
+}
+#xfhxqd{
+	background:green;
+}
+
+#productContent > section > div{
+	float:left;
+	margin:30px 0 0 40px;
+	border:1px solid #cccccc;
+	cursor:pointer;
+	transition:all 0.4s ease-In-Out;
+}
+
+#productContent > section > div:hover{
+	transform:translateY(-20px);
+}
+
+#redBar{
+	width:100%;
+	height:28px;
+	background:linear-gradient(#cc0000, #990000);
+}
+
+#footerP{
+    width:100%;
+	font-size:12px;
+	text-align:center;
+	line-height:22px;
+	color:grey;
+	font-family:"microsoft yahei"
+}
+
+#topPicture > img{
+	position:absolute;
+	left:50%;
+	top:50%;
+    margin-left:-448px;
+	margin-top:-38px;
+
+}
+
+/*以下为contact的大部分样式内容*/
+#map{
+	width:840px;
+	height:614px;
+	margin:0 auto;
+	border:1px solid #cccccc;
+	position:relative;
+}
+
+#map > header ,#store > header,#honor > header ,#yeji > header{
+	width:100%;
+	height:32px;
+	background:linear-gradient(white, #cccccc);
+}
+
+#map > header > h4,#store > header > h4,#honor > header > h4,#yeji > header > h4{
+	line-height:32px;
+	vertical-align:center;
+}
+
+#map > img{
+	position:absolute;
+	left:50%;
+	transform:translateX(-50%);
+}
+
+#map > p {
+	position:absolute;
+	left:20px;
+	bottom:20px;
+}
+
+/*以下为store的大部分样式内容*/
+
+#store{
+	width:984px;
+	height:474px;
+	margin:0 auto;
+	border:1px solid #cccccc;
+	position:relative;
+}
+
+/*以下为honor的大部分样式内容*/
+#honor{
+	width:1080px;
+	height:470px;
+	margin:0 auto;
+	border:1px solid #cccccc;
+	position:relative;
+	margin-top:20px;
+	margin-bottom:20px;
+}
+
+#honor > aside{
+	width:180px;
+	height:180px;
+    border:1px solid #cccccc;	
+}
+
+#honor > aside > header{
+	width:100%;
+	height:32px;
+	background:linear-gradient(#cc0000, #990000);
+}
+
+#honor > aside > header > h4{
+	text-align:center;
+	vertical-align:center;
+	line-height:32px;
+	color:white;
+	font-family:"microsoft yahei";
+}
+
+#honor > aside > img{
+	width:180px;
+	height:148px;
+}
+
+#honor > img{
+	position:absolute;
+	left:315px;
+	top:50px;	
+}
+
+/*以下为yeji的大部分样式内容*/
+#yeji{
+	width:1000px;
+	height:630px;
+	margin:0 auto;
+	border:1px solid #cccccc;
+	position:relative;
+	margin-top:20px;
+	margin-bottom:20px;
+}
+
+#yejiPage1 > img,#yejiPage2 > img{
+	box-shadow:5px 5px 2px grey;
+	margin:0 20px 20px 0;
+}
+
+#yejiPage2{
+	display:none;
+}
+
+#yeji > ul{
+	width:130px;
+	margin:0 auto;
+	position:absolute;
+	left:50%;
+	bottom:10px;
+	transform:translateX(-50%);
+}
+
+#yeji > ul >li {
+	display:inline-block;
+	width:60px;
+	cursor:pointer;
+	transition:all 0.3s ease-In-Out;
+}
+
+#yeji > ul >li.active {
+	color:red;
+	transform:translateY(-5px);
+}
+
+#night{
+	position:fixed;
+	left:0;
+	top:0;
+	z-index:1000;
+	width:100%;
+	height:100%;
+	background:black;
+	opacity:0.4;
+	display:none;
+}
+
+#proDes{
+	position:absolute;
+	top:32px;
+	left:192px;
+	width:890px;
+	height:437px;
+}
+
+#proDes > nav{
+	width:100%;
+	height:32px;
+	background:linear-gradient(#cc0000, #990000);
+}
+
+#proDes > nav > h4{
+	line-height:32px;
+	vertical-align:center;
+	color:white;
+	background:linear-gradient(#cc0000, #990000);
+}
+
+#DesInfo{
+	position:absolute;
+	line-height:30px;
+	right:0;
+	top:32px;
+	height:100%;
+	width:440px;
+}
